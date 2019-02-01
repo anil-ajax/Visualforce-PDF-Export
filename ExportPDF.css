@@ -1,0 +1,18 @@
+.records{
+	border: 5px solid #ccc;
+}
+
+.record{
+	border: 5px solid #ccc;
+}
+
+.two-column .record{
+	float:left;
+	width:49%;
+}
+
+.footer, .header{
+	display: block;
+	border: 5px solid #ccc;
+	background: #ccc;
+}
