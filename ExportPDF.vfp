@@ -1,0 +1,38 @@
+<apex:page showHeader="false" renderAs="pdf">
+    <apex:stylesheet value="{!URLFOR($Resource.pdfCSS)}"/>﻿
+    <apex:pageBlock title="PDF Export - Formatting" >
+        <div class="container">
+            <div class="header title">
+            	PDF Export - Sample Formatting 
+        	</div> 
+            
+            <div class="records">
+            	<div class="record">
+            		record
+        		</div> 
+                <div class="record">
+            		record
+        		</div>                 
+        	</div> 
+            
+            <h1>Two Column</h1>
+            
+            <div class="two-column">
+            	<div class="record">
+            		record
+        		</div> 
+                <div class="record">
+            		record
+        		</div>                 
+        	</div> 
+            <div style="clear: both;">&nbsp;</div>
+            
+            <h1>Footer</h1>
+            
+            <div class="footer">
+            	PDF Export - Sample Formatting 
+        	</div> 
+            
+        </div>
+    </apex:pageBlock>
+</apex:page>
